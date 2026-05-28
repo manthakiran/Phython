@@ -7,3 +7,50 @@ print (a+b+c)
 print (a-b-c)
 print (a*b*c)
 print (a/b)
+
+
+# Read princpal,time and rate from the keyboard. find simple intrest?
+
+princpal = int(input("Enter the princpal : "))
+time = int(input("Enter the time : "))
+rate = int(input("Enter the rate : "))
+ 
+print ( (princpal*time*rate)/100 )
+
+
+# Read length and breadth from the keyboard. find the area and perimeter of the rectangle?
+
+length = int(input("Enter the length : "))
+breadth = int(input("Enter the breadth : "))
+# rate = int(input("Enter the rate : "))
+
+print ("area of rectangle")
+print  (breadth*length)
+
+print ("perimeter of rectangle")
+print ( 2*(breadth+length))
+
+# Read two text from the keyboard. concat/add with each other and in reverse formate
+
+str1 = (input("Enter the 1st string : "))
+str2 = (input("Enter the 2nd string : "))
+
+
+print(str1+str2)
+print( str1[::-1] + str2[::-1] )
+
+
+subjects = ['english','mathematics','science','computer','hindi']
+
+# exp out : ['english','mathematics','science']
+
+print( subjects[:3] )
+
+# exp out : ['mathematics','science','computer']
+
+print( subjects[1:4] )
+
+# exp out : ['hindi','computer','science']
+
+print( subjects[:-4:-1] )
+
