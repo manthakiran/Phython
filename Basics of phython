@@ -54,3 +54,29 @@ print( subjects[1:4] )
 
 print( subjects[:-4:-1] )
 
+
+numbers = (10,20,30,40,50,60,70,80,90)
+
+# exp output : (10,30,50,70,90)
+
+print( numbers[::2] )
+
+# exp output : (20,40,60,80)
+
+print( numbers[1::2] )
+
+# exp output : (90,70,50,30,10)
+
+print( numbers[-1::-2] )
+
+# exp output : (80,60,40,20)
+
+print( numbers[-2::-2] )
+
+# exp output : (20,30,40,50)
+
+print( numbers[1:6] )
+
+# change 20 to 'twenty'
+# tuple we cannot modify. Because it is immutable
+
